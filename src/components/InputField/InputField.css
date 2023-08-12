@@ -43,4 +43,20 @@
   .inputField {
     margin: 24px 8px;
   }
+
+  .inputField-color input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .inputField-color input::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
 }
