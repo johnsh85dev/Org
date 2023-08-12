@@ -20,3 +20,13 @@
 .options-list select:focus {
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .options-list {
+    margin: 8px;
+  }
+
+  .options-list select {
+    padding: 15px 10px;
+  }
+}

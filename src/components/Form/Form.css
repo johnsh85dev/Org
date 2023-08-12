@@ -19,3 +19,23 @@
   font-weight: 400;
   color: #212121;
 }
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 16px 20px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .formulario form {
+    padding: 8px 16px;
+  }
+
+  .formulario h2 {
+    font-size: 24px;
+  }
+}

@@ -1,6 +1,6 @@
 .collaborator {
   width: 262px;
-  margin-bottom: 24px;
+  margin: 16px;
   position: relative;
 }
 
@@ -42,6 +42,7 @@
   line-height: 22px;
   font-weight: 400;
   margin: 0;
+  min-height: 44px;
 }
 
 .delete {

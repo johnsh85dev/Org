@@ -16,6 +16,21 @@
 
 .orgSection img {
   position: absolute;
-  right: 25%;
+  right: 15%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .orgSection {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 36px;
+    padding-bottom: 16px;
+  }
+
+  .orgSection img {
+    position: initial;
+  }
 }

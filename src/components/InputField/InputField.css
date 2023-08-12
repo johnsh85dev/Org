@@ -30,3 +30,17 @@
   height: 78px;
   padding: 5px 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .inputField label {
+    font-size: 16px;
+  }
+
+  .inputField input {
+    padding: 15px 10px;
+  }
+
+  .inputField {
+    margin: 24px 8px;
+  }
+}
