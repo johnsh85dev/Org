@@ -1,0 +1,58 @@
+.collaborator {
+  width: 262px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.collaborator .headerCard {
+  background-color: #f0f0f0;
+  border-radius: 10px 10px 0 0;
+  height: 92px;
+}
+
+.collaborator img {
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -30px;
+}
+
+.collaborator .info {
+  background: #ffffff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0 0 10px 10px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  min-height: 100px;
+  font-family: "Monserrat", sans-serif;
+}
+
+.collaborator .info h4 {
+  color: #6278f7;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.collaborator .info h5 {
+  color: #212121;
+  font-size: 18px;
+  padding: 0 24px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.delete {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  font-size: 3rem;
+  color: slategray;
+}
+
+.delete:hover {
+  color: rgba(255, 0, 0, 0.7);
+  cursor: pointer;
+}
