@@ -13,6 +13,14 @@ function App() {
     {
       id: uuid(),
       team: "Front End",
+      photo: "https://github.com/johnsh85dev.png",
+      name: "Jonathan Sánchez",
+      job: "Dev Junior",
+      fav: true,
+    },
+    {
+      id: uuid(),
+      team: "Front End",
       photo: "https://github.com/harlandlohora.png",
       name: "Harland Lohora",
       job: "Instructor",
