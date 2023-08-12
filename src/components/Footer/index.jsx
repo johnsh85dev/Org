@@ -1,17 +1,15 @@
 import "./Footer.css";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <footer className="footer" style={{ backgroundImage: "url(/img/footer.png)" }}>
       <div className="redes">
-        <a href="https://www.aluracursos.com/">
-          <img src="/img/facebook.png" alt="Facebook" />
+        <a href="https://www.linkedin.com/in/jonathan-s%C3%A1nchez-hern%C3%A1ndez-00bb01270/">
+          <BsLinkedin />
         </a>
-        <a href="https://www.aluracursos.com/">
-          <img src="/img/twitter.png" alt="twitter" />
-        </a>
-        <a href="https://www.aluracursos.com/">
-          <img src="/img/instagram.png" alt="instagram" />
+        <a href="https://github.com/johnsh85dev">
+          <BsGithub />
         </a>
       </div>
       <img src="/img/Logo.png" alt="org" />
