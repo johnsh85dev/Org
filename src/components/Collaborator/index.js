@@ -12,7 +12,7 @@ const Collaborator = (props) => {
         className="delete"
         onClick={() =>
           Swal.fire({
-            title: "Está seguro de eliminar el colaborador?",
+            title: "Está seguro de eliminar al colaborador?",
             text: "Esta acción es ireversible!",
             icon: "warning",
             showCancelButton: true,
