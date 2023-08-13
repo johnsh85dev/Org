@@ -28,6 +28,8 @@ const Collaborator = (props) => {
               ).then(() => {
                 deleteCollaborator(id);
               });
+            } else {
+              Swal.fire("La operacíon se canceló", "", "error");
             }
           })
         }

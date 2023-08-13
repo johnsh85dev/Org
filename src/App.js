@@ -112,7 +112,6 @@ function App() {
   //Regiter Collaborator
 
   const registerCollaborator = (collaborator) => {
-    console.log("Nuevo Colaborador", collaborator);
     //Spread Operator
     updateCollaborators([...collaborators, collaborator]);
   };
@@ -125,7 +124,6 @@ function App() {
 
   //Update Color Team
   const updateColor = (color, id) => {
-    console.log("Actualizar: ", color, id);
     const updatedTeams = teams.map((team) => {
       if (team.id === id) {
         team.highlightColor = color;
