@@ -119,7 +119,6 @@ function App() {
 
   //Delete Collaborator
   const deleteCollaborator = (id) => {
-    console.log("Eliminar Colaborador", id);
     const newCollaborators = collaborators.filter((collaborator) => collaborator.id !== id);
     updateCollaborators(newCollaborators);
   };
